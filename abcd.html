@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<script>
+			function abc()
+				{
+					alert("HELLO from Alert Box");
+				}
+
+			function xyz()
+				{
+				var conf = confirm("Do you really want to Exit the Windows");
+				if(conf)
+				{
+					close();
+				}
+				else
+				{	alert("you chosse to continue ");
+				}
+				}
+			function atoz()
+			{
+				var name=prompt("Enter Name :");
+				document.write("<h1>Welcome! "+name+"</h1>");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Inbuilt function demo</h1>
+		<hr>
+		<input type="text" name="t1" onchange="alert('enter in the text field')"><br><br>
+		<button onclick="abc()">Alert Demo</button>
+		<button onclick="xyz()">EXIT</button>
+		<button onclick="atoz()">Prompt Demo</button>
+		<input type="button" value="Come here" onMouseOut="alert('Put your mouse cursor aside asap')"><br><br>
+		<hr>
+		<h2>
+		<script>
+			var a="2050";
+			document.write(a+5);
+document.write("<br>");
+			document.write(eval(a)+5);
+document.write("<br>");			
+document.write(parseInt(a)+5);
+document.write("<br>");		
+document.write("a is not a number:"+isNaN(a));
+		</script></h2>	
+	</body>
+</html>

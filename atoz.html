@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+	function getFullName()
+	{
+	var fn=document.f1.t1.value;
+	var ln=document.f1.t2.value;
+	var fullname=fn + " " +ln;
+	document.f1.t3.value=fullname;
+	}
+</script>
+</head>
+<body>
+	<h1>Java Script Demo</h1>
+	<hr>
+	<h2>
+	
+	<form name="f1">
+		Enter First Name: <input type="text" name="t1"><br>
+
+		Enter Last Name: <input type="text" name="t2"><br>
+
+		Your Full Name is : <input type="text" name="t3"><br>
+
+		<input type="button" value="getfullname" onclick="getFullName()">
+		<input type="reset" value="Reset">
+	</form>
+	</h2>
+</body>
+</html>

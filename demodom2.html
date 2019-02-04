@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<script>
+			function changeHeading()
+			{
+			var heading = document.getElementById("head1");
+			heading.innerText="HEADING JUST GOT CHANGED BOUYY";
+	
+			var para=document.getElementByTagName("p");
+			para[0].innerText="HI";
+			para[1].innerText="HELLO";
+			para[2].innerText="wASSUP BIROOOOOOOOOOOOOOOOOOOOOOOOOOO";
+			}
+			function abc()
+			{
+				document.getElementById("d1").innerText="Hey !I come here";
+			}
+			function xyz1()
+			{	
+			document.getElementById("d2").innerHTML="<br><form action='abc.html'>Username<input type='text' name='t1'><br>Password <input type='password' name='t2'<br><br><input type='submit' name='b1' value='SUBMIT'><input type=''reset name='b2' value=''RESET'></form>";
+			}
+			function xyz2()
+			{
+				document.getElementById("d2").innerHTML="";
+			}
+		</script>
+	</head>
+
+	<body>
+		<h1 id="head1" onClick="changeHeading()">This is for DOM Demooo</h1>
+		<hr>
+		<p name="p1">This is some paragraph.First one.</p>
+
+		<p name="p2">This is some paragraph.Second one.</p>
+		<p name="p3">This is some paragraph.Third one.</p>
+		<hr>
+		<div id="d1"></div>
+		<hr>
+		<button onClick="abc()">Click Me</button>
+		<button onClick="xyz()">SIGN ME</button>
+		<button onClick="xyz2()">HIDE</button>	
+		<div id="d2"></div>
+
+</body>
+</html>			
